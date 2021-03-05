@@ -15,6 +15,7 @@ body {
     font-family: 'Permanent Marker', cursive;
     color: black;
     text-align: center;
+    background-color: rgb(250, 235, 215);
 }
 
 .quote-container {
@@ -26,7 +27,7 @@ body {
 }
 
 .quote-text {
-    font-size: 1.75rem;
+    font-size: 2.1rem;
     padding: 15px;
 }
 
@@ -63,5 +64,14 @@ button:active {
 }
 
 /* Media Queries */
+@media screen and (max-width: 1000px) {
+    .quote-text {
+        font-size: 1.55rem;
+    }
 
+    button {
+        font-size: 0.9rem;
+    }
+
+}
 
